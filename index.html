@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- PAGE 1 -->
+    <div class="page active" id="page1">
+        <img src="images/IMG1.png" class="main-img">
+        <div class="text-box">🤚 Madam gaaru! Mee kosam okati chesanu...</div>
+        <button class="btn" onclick="showPage(2); createHearts();">ento >>></button>
+    </div>
+
+    <!-- PAGE 2 -->
+<div class="page" id="page2">
+
+    <img src="images/IMG2.png" class="main-img">
+
+    <div class="btn-group">
+        <button class="btn" onclick="showPage(5)">
+            Chusthanu
+        </button>
+
+        <!-- IMPORTANT: use handleChudanu() -->
+        <button class="btn" onclick="handleChudanu()">
+            Chudanu
+        </button>
+    </div>
+
+</div>
+    <!-- PAGE 3 -->
+<div class="page" id="page3">
+
+    <img src="images/IMG3.png" class="main-img">
+
+    <button class="btn" onclick="showPage(2)">
+        Sare sare >>
+    </button>
+
+</div>
+
+    <!-- PAGE 4 -->
+<div class="page" id="page4">
+
+    <img src="images/IMG4.png" class="main-img">
+
+    <button class="btn" onclick="showPage(2)">
+        Sare sare >>
+    </button>
+
+</div>
+
+    <!-- PAGE 5 -->
+    <div class="page" id="page5">
+        <img src="images/IMG5.png" class="main-img">
+        <button class="btn" onclick="showPage(6)">Chalu chalu >></button>
+    </div>
+
+    <!-- PAGE 6 -->
+    <div class="page" id="page6">
+        <img src="images/IMG6.png" class="main-img">
+        <button class="arrow-btn" onclick="showPage(7)">></button>
+    </div>
+
+    <!-- PAGE 7 -->
+    <div class="page" id="page7">
+        <img src="images/IMG7.png" class="main-img">
+        <button class="arrow-btn" onclick="showPage(8)">></button>
+    </div>
+
+    <!-- PAGE 8 -->
+    <div class="page" id="page8">
+        <img src="images/IMG8.png" class="main-img">
+        <button class="arrow-btn" onclick="showPage(9); createHearts();">></button>
+    </div>
+
+    <!-- PAGE 9 -->
+    <div class="page" id="page9">
+        <img src="images/IMG9.jpeg" class="main-img">
+    </div>
+
+</div>
+
+<div id="hearts-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
